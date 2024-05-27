@@ -118,7 +118,7 @@ function match(cardOne, cardTwo) {
             });
             time.innerHTML = "Game Over";
             swal("Good job!", "Congratulations! You've won the game! Go to the Next Level", "success").then(() => {
-                window.location.href = '../level/congratulations.html';
+                window.location.href = 'https://dementia-image-app.streamlit.app/';
             });
         }
 
