@@ -122,7 +122,7 @@ function match(cardOne, cardTwo) {
             });
             time.innerHTML = "Game Over";
             swal("Good job!", "Congratulations! You've won the game! Go to the Next Level", "success").then(() => {
-                window.location.href = './indexlevel7.html';
+                window.location.href = 'https://dement-project-result-app.streamlit.app/';
             });
         }
     }else {
